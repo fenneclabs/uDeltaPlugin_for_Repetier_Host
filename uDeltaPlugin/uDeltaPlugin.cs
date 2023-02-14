@@ -21,11 +21,6 @@
  * Licence: CC-BY-NC-SA 
  */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using RepetierHostExtender.interfaces;
 
 namespace uDeltaPlugin
@@ -48,12 +43,12 @@ namespace uDeltaPlugin
         public void PostInitialize()
         {
             // Add the CoolControl to the right tab
-           uDeltaControl cool = new uDeltaControl();
+            uDeltaControl cool = new uDeltaControl();
             cool.Connect(host);
             host.RegisterHostComponent(cool);
 
             // Add some text in the about dialog
-            host.AboutDialog.RegisterThirdParty("µDeltaPlugin", "\r\n\r\nµDelta Plugin v1.0.5\r\nwritten by Hugo Flye from eMotion Tech \r\nIcons designed by Antony Soury\r\nwww.reprap-france.com");
+            host.AboutDialog.RegisterThirdParty("µDeltaPlugin", "\r\n\r\nµDelta Plugin v1.0.6\r\nwritten by Hugo Flye from eMotion Tech \r\nIcons designed by Antony Soury\r\nwww.reprap-france.com");
         }
         /// <summary>
         /// Last round of plugin calls. All controls exist, so now you may modify them to your wishes.

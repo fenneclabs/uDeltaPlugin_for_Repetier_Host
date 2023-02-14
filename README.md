@@ -24,3 +24,6 @@ Plugin possibility is really really cool for any user! Please keep your host fre
 
 Authors: Hugo FLYE and for the graphic: Antony SOURY (sans hache à la vie)
 Licence: CC-BY-NC-SA 
+
+=================================
+v1.0.6 is just rebuilt with .NET 4.6.2 to run with latest Repetier
